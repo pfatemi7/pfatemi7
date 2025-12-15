@@ -1,43 +1,83 @@
 # Hi, I'm Parham Fatemi  
 
- **Embedded Systems Engineer | Robotics & ROS/ROS2 Developer | PCB & Hardware Designer**  
+**Embedded Systems Engineer | Robotics & ROS2 Developer | PCB & Hardware Designer**
 
-I’m a Master’s graduate in **Electrical Engineering (UBC)** with a passion for **embedded systems, robotics, and intelligent hardware design**.  
-My work spans from **custom PCB design and real-time firmware** to **ROS/ROS2-based robotics applications** using **Linux** and **NVIDIA Jetson platforms**.  
-
----
-
-##  What I Do  
-- 🔹 **Embedded Systems Development** – C/C++, FreeRTOS, microcontrollers (ARM, AVR, Arduino, Raspberry Pi, Jetson Nano)  
-- 🔹 **Robotics & Autonomy** – ROS/ROS2, LiDAR + camera fusion, obstacle avoidance, path planning  
-- 🔹 **Hardware & PCB Design** – Altium, KiCad, motor/actuator control, sensor integration  
-- 🔹 **Biomedical Prototyping** – Soft robotics, wireless medical devices, pressure & motion sensing  
-- 🔹 **Tools & Platforms** – Linux, Python, MATLAB, Git, SolidWorks  
+Master’s graduate in **Electrical Engineering (UBC)** building **end-to-end embedded and robotic systems**: firmware, custom hardware, wireless networks, and ROS2-based autonomy on **Linux and NVIDIA Jetson**. I focus on systems that actually run unattended, not demo-only toys.
 
 ---
 
-## 📌 Featured Projects  
-Here are a few of my highlighted repositories:  
-
-- [**Camera-LiDAR Fusion for Drones**](https://github.com/pfatemi7/CameraLidar) – Real-time obstacle detection and smooth path planning using LiDAR + stereo vision  
-- [**Pressure-Based Motor Control System**](https://github.com/pfatemi7/Pressure-Based-Motor-Control-System) – Embedded control of a pressure transducer-based actuator  
-- [**RPM Counter**](https://github.com/pfatemi7/RPM_Counter) – Microcontroller-based system for motor speed measurement and control  
-- [**Displacement Tracker**](https://github.com/pfatemi7/Displacement-Tracker) – Arduino project for precise displacement measurement  
-- [**CNN Image Classification**](https://github.com/pfatemi7/CNN-Image-Classification) – Deep learning model implementation for image recognition  
+## What I Do
+- 🔹 **Embedded Systems & Firmware** – C/C++, real-time design, FreeRTOS, ESP32/ARM/Arduino, low-level debugging  
+- 🔹 **Robotics & Autonomy** – ROS/ROS2, perception pipelines, obstacle avoidance, LiDAR + camera fusion  
+- 🔹 **Wireless & IoT Systems** – LoRa networks, low-power design, device-to-cloud data flow  
+- 🔹 **Hardware & PCB Design** – KiCad/Altium, motor drivers, sensors, power management  
+- 🔹 **Tools** – Linux, Python, Git, MATLAB, SolidWorks
 
 ---
 
-## 📊 GitHub Stats  
-![Parham's GitHub stats](https://github-readme-stats.vercel.app/api?username=pfatemi7&show_icons=true&theme=radical)  
+## Current Focus
+- Scalable **LoRa-based sensing networks** with deterministic scheduling and backend integration  
+- ROS2 perception and autonomy workflows on **Jetson-class edge computers**
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pfatemi7&layout=compact&theme=radical)  
+---
+
+## Featured Projects (Recent & Active)
+
+### **LoRa TDMA Sensor Network**
+🔗 https://github.com/pfatemi7/LoRa-RxTx  
+
+A **synchronized LoRa master–slave network** designed for long-range, low-power sensing:
+- TDMA-style time slots controlled by a master broadcast
+- Multiple sensor nodes transmit without collision
+- Master node stores data locally (SPIFFS) and uploads via WiFi/HTTP
+- Designed for **environmental monitoring, smart agriculture, and remote sensing**
 
 ---
 
-## 🌍 Connect With Me  
-- 💼 [LinkedIn](https://www.linkedin.com/in/parham-fatemi/)  
-- ✉️ pfatemi7@gmail.com  
-- 📍 BC, Canada  
+### **Camera–LiDAR Fusion for Drones**
+🔗 https://github.com/pfatemi7/CameraLidar  
+
+- Real-time obstacle detection using LiDAR + stereo vision  
+- ROS2-based pipeline with smooth local path planning  
+- Targeted for Jetson-powered UAV platforms
 
 ---
- *Always curious, always building — from embedded hardware to intelligent robotics.*
+
+### **Laser Tracking Gimbal**
+🔗 https://github.com/pfatemi7/laser-gimbal  
+
+- Dual-axis pan/tilt servo control system  
+- Object tracking and stabilization logic  
+- Embedded control with real-time constraints
+
+---
+
+### **Drone Simulator**
+🔗 https://github.com/pfatemi7/drone_simulator  
+
+- Simulation framework for obstacle-aware drone motion  
+- Focus on detection, avoidance, and maneuver behavior
+
+---
+
+## Other Projects
+- **Pressure-Based Motor Control System** – Closed-loop actuator control using pressure transducers  
+- **RPM Counter** – Microcontroller-based motor speed measurement  
+- **Displacement Tracker** – Sensor-based displacement estimation  
+- **CNN Image Classification (MATLAB)** – Deep learning experimentation
+
+---
+
+## GitHub Stats
+![Parham's GitHub stats](https://github-readme-stats.vercel.app/api?username=pfatemi7&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pfatemi7&layout=compact&theme=radical)
+
+---
+
+## Connect With Me
+- 💼 LinkedIn: https://www.linkedin.com/in/parham-fatemi/
+- ✉️ Email: pfatemi7@gmail.com
+- 📍 Vancouver, BC, Canada
+
+---
+*I build systems that survive real deployment: firmware, wireless, hardware, and robotics software working together.*
