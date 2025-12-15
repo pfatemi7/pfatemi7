@@ -75,7 +75,7 @@ A **synchronized LoRa master–slave network** designed for long-range, low-powe
 ---
 
 ## Connect With Me
-- 💼 LinkedIn: https://www.linkedin.com/in/parham-fatemi/
+- 💼 LinkedIn: https://www.linkedin.com/in/parham-fatemi-67ab1979/
 - ✉️ Email: pfatemi7@gmail.com
 - 📍 Vancouver, BC, Canada
 
